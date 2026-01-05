@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Quick Navigation</title>
+    
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 40px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 50px;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .big-button {
+            padding: 24px 32px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: white;
+            background-color: #4a90e2;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .big-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            background-color: #357abd;
+        }
+
+        .big-button:active {
+            transform: translateY(-1px);
+        }
+
+        /* Different colors for different buttons */
+        .btn-1 { background-color: #4a90e2; }
+        .btn-1:hover { background-color: #357abd; }
+        
+        .btn-2 { background-color: #50c878; }
+        .btn-2:hover { background-color: #3da968; }
+        
+        .btn-3 { background-color: #f39c12; }
+        .btn-3:hover { background-color: #d68910; }
+        
+        .btn-4 { background-color: #e74c3c; }
+        .btn-4:hover { background-color: #c0392b; }
+    </style>
+</head>
+<body>
+
+
+<div class="card" onclick="window.location.href='README.html'">
+                <div class="card-content">
+                    <div class="repo-icon">🕹️</div>
+                    <div class="card-title">Main README</div>
+                    <div class="card-desc">Read This</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
