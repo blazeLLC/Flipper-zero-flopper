@@ -1,0 +1,9 @@
+REM Mii 2 /Blaze script
+REM for flipper zero
+DELAY 300
+GUI r
+DELAY 500
+STRING microsoft-edge:https://blazellc.github.io/you-are-an-idiot-safe-mii2/
+ENTER
+DELAY 700
+F11
